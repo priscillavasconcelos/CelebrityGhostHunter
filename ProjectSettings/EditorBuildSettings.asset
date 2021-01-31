@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_SCENES/Home.unity
+    guid: c4c2f6627976f1444ab6f9e85044466b
+  - enabled: 1
+    path: Assets/_SCENES/Game.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/_SCENES/GameOver_Smoke.unity
+    guid: adf988dc94f5792408578fd6ccb50928
+  - enabled: 1
+    path: Assets/_SCENES/GameOver_DestroyCeleb.unity
+    guid: 2c9f5a26f8961cd4fb61f175b3d0fbca
+  - enabled: 1
+    path: Assets/_SCENES/GameOver_Battery.unity
+    guid: b84a622bba4ad674e91400d9d04606b9
+  - enabled: 1
+    path: Assets/_SCENES/GameWin.unity
+    guid: 2f1a7839a3294404482412c639428ead
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 86d3e12c5e1a88e4c8ecac35c2e5b788, type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: b188a0611ad630e4b984bbd3bf253ab2, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 0f4e6af678445ef41a66023f6fa8fae2, type: 2}
