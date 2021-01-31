@@ -27,11 +27,11 @@ public class PerfectPhotoController : MonoBehaviour
         {
             //Output the name of the Collider your Box hit
             //Debug.Log("Hit : " + m_Hit.collider.name);
-            GameManager.Instance.dotCenter.color = Color.green;
+            GameManager.Instance.dotCenter.color = new Color(0, 1, 0, 0.7f);
         }
         else
         {
-            GameManager.Instance.dotCenter.color = Color.white;
+            GameManager.Instance.dotCenter.color = new Color(1, 1, 1, 0.7f);
         }
     }
 
